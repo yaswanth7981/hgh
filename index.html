@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+            background-color:red;
+        }
+        header{
+        background-color: #92b749;
+        color: rgb(11, 11, 11);
+}
+nav ul li{
+    display:inline;
+    padding: 20px;
+
+}
+nav ul a{
+    text-decoration: none;
+    color:rgb(14, 14, 14) ;
+}
+image{
+    width: 1500;
+    height:500;
+}
+#menu image{
+    height: 150;
+    width: 150;
+}
+    
+#Menu{
+    background-color: rgb(111, 156, 171);
+    padding:25px 0 25px 0;
+}
+
+#menu_row{
+    display: flex;
+    padding: 0 100px 0 100px;
+}
+
+#menu_col{
+    box-shadow: 2px 2px 2px #bbb;
+    background-color: #fff;
+    margin: 10px;
+    padding: 10px;
+    flex:1;
+}
+#products_col{
+    box-shadow: 2px 2px 2px #120fb3;
+    background-color: #9ab514;
+    margin: 10px;
+    padding: 10px;
+    flex:1;
+}
+#menu_col h2{
+    background-color: red;
+    color:#fff;
+    text-align: center;
+    padding: 5px;
+    font-family: cursive;
+}
+#image{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding:5px;
+    border: 2px soild orange;
+}
+#image img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 5px;
+}
+marquee{
+    color: rgb(28, 245, 17)
+}
+
+.grid{
+    display: grid;
+    text-align: center;
+    background-color: rgb(red, green, blue);
+    grid-template-columns:auto auto auto ;
+    width: 100%;
+    height: 600px;
+    padding: 100px;
+
+    gap: 20px;
+}
+
+
+.grid-item1,.grid-item2,.grid-item3,.grid-item4,.grid-item5,.grid-item6{
+    background-color: aliceblue;
+    border: 1px solid black;
+    padding: 30px;
+    text-align: center;
+    font-size: 10px;
+    height: 250px;
+    width: 300px;
+    border-radius: 20px;
+    text-align: center;
+} 
+button{
+    color: white;
+            background-color: rgb(14, 212, 53);
+           
+        }
+        button:hover{
+            background-color: rgb(51, 143, 143);
+        }
+        .grid-item7 ,.grid-item8 ,.grid-item9{
+            background-color: rgb(32, 0, 128);
+            border: 1px solid rgb(17, 231, 64);
+            padding: 30px;
+            text-align: center;
+            font-size: 10px;
+            height: 150px;
+            width: 150px;
+            border-radius: 20px;
+            text-align: center;
+        }
+        
+        
+        .yash{
+    
+            display: grid;
+            grid-template-rows: auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            padding-top: 30px;
+            gap: 20px;
+        
+        }
+        .text1,.text2,.text3,.text4{
+            background-color:aliceblue;
+            width: 50px;
+            height: 50px;
+            border-radius: 50px;
+            
+        }
+        
+       
+ li{
+    display: inline;
+    padding: 10px;
+
+ }
+
+    
+footer{
+    background-color: #145db1;
+    padding: 2px;
+    color:aliceblue;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Eight O'Clock Coffee</h1>
+        <a href="#" class="logo">
+            <img src="logocf.png" width="225px" height="225">
+            </a>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#Bio">Bio</a></li>
+            <li><a href="#Menu">Menu</a></li>
+            <li><a href="#Our products">Our Products</a></li>
+            <li><a href="#Review">Review</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </nav>
+    </header>
+    <main>
+        <section id="Home">
+        <img src="backcoffeenew.webp">
+        </p>
+        </section>
+        <section id="Bio">
+            <h2>About</h2>
+            <p>Eight O'Clock Coffee is for those who put coffee first.<br>
+             <b>America's original gourmet coffee, with a legacy of 160 years, gives consumers high quality 100% Arabica coffee.</b><br>
+            It is the fifth largest coffee brand in the USA, in terms of volume, and has the highest loyalty<br>
+             and repeat rates among bagged coffee competitors.</p>
+        </section>
+        <section></section>
+        <section id="Menu">
+            <h1> COFFEE Menu</h1>
+            <marquee><b><h1> PLACE YOUR FIREST ORDER THEN GET 80% DISCOUNT</h1></b></marquee>
+                
+            <div id="menu_row">
+                <div id="menu_col">
+                    <h2>WORLD BEST</h2>
+                    
+                    <div class="box">
+                        <div>
+                            <img src="coffee3.jpg" height="200" width="220">
+                            </div>
+                            <div>
+                                <h3>Tasty Dish 1</h3>
+                                <h4>1000$</h4>
+                                <button type="submit">Order Now</button>
+                            </div>
+                     </div>
+                    </div>
+                    <div id="menu_row">
+                        <div id="menu_col">
+                            <h2>ENERGY DRINK</h2>
+                    <div class="box">
+                        <div>
+                            <img src="coffee2.jpg" height="200" width="220">
+                            </div>
+                            <div>
+                                <h3>Tasty Dish 2</h3>
+                                <h1>500$</h1>
+                                <button type="submit">Order Now</button>
+                            </div>
+                     </div>
+                    </div>
+                    <div id="menu_row">
+                        <div id="menu_col">
+                            <h2>NATURAL DRINK</h2>
+                    <div class="box">
+                        <div>
+                            <img src="COFFEE4.jpg">
+                            </div>
+                            <div>
+                                <h3>Tasty Dish 3</h3>
+                                <h1>1000$</h1>
+                                <button type="submit">Order Now</button>
+                            </div>
+                     </div>
+                    </div>
+                </div>
+
+            </div>
+                                
+        
+        </section>
+    </main>
+    
+    <h2>FOOD MENU</h2>
+    <center>
+    <div class="grid-item1">
+        <img src="foodclock.jpg"  width="300px" height="200px"> 
+        <p>Biryani is a mixed rice dish originating in South Asia. It is made with Indian spices, vegetables, rice, and usually some type of meat.</p>
+        <button type="submit">Order Now</button>
+    </div>
+    
+    <div class="grid-item2">
+        <img src="foodclock1.jpg"  width="300px" height="200px">
+        <p>Dosa is a popular South Indian thin crepe made with fermented rice and lentil batter.</p>
+        <button type="submit">Order Now</button>
+    </div>
+    
+    <div class="grid-item3">
+        <img src="foodclock2.jpg"  width="300px" height="200px"> 
+        <p>List of fruits · Bell pepper · Carolina reaper · Chile pepper · Corn kernel · Cucumber · Eggplant (or Brinjal) · Jalapeño · Olive ...</p>
+        <button type="submit">Order Now</button>
+    </div>
+    <div class="grid-item4">
+        <img src="foodclock3.jpg"  width="300px" height="200px"> 
+        <p>indian style veg macaroni pasta recipe - it's a mouthwatering pasta dish cooked with a desi indian twist of masalas and vegetables.</p>
+        <button type="submit">Order Now</button>
+   </div>
+   <div class="grid-item5">
+        <img src="foodclock4.jpg"  width="300px" height="200px">
+        <P>In a large bowl, stir together the flours and salt. Use a wooden spoon to stir in the olive oil and enough water to make a soft .</P>
+        <button type="submit">Order Now</button>
+</div>
+    <div class="grid-item6">
+        <img src="pizza.jpg"  width="300px" height="200px">
+        <P>Order Pizza Hut Tastiest Pan Pizzas at amazing prices. Get 1+1 medium pizzas @ Rs. 599. Order pizza online and enjoy pizza deals .</P>
+        <button type="submit">Order Now</button>
+
+    </div>
+</div>
+</center>
+
+<section id="Our products">
+<h1>Our products</h1>
+<div class="grid">
+    <div class="grid-item7">
+        <img src="PR1.jpg" width="200px" height="200px"><br>
+        <h1>300$</h1>
+        <button type="submit">Buy Now</button>
+        </div>
+        <div class="grid-item7">
+            <img src="PR2.jpg" width="200px" height="200px"><br>
+            <h1>1000$</h1>
+            <button type="submit">Buy Now</button>
+            </div>
+            <div class="grid-item7">
+                <img src="PR3.jpg" width="200px" height="200px"><br>
+                <h1>400$</h1>
+                <button type="submit">Buy Now</button>
+                </div>
+                <div class="grid-item7">
+                    <img src="PR4.jpg" width="200px" height="200px"><br>
+                    <h1>200$</h1>
+                    <button type="submit">Buy Now</button>
+                    </div>
+                    <div class="grid-item7">
+                        <img src="PR5.jpg" width="200px" height="200px"><br>
+                        <h1>700$</h1>
+                        <button type="submit">Buy Now</button>
+                        </div>
+                        <div class="grid-item7">
+                            <img src="PR6.jpg" width="200px" height="200px"><br>
+                            <h1>100$</h1>
+                            <button type="submit">Buy Now</button>
+                            </div>
+</section>
+<h1>Reviews</h1>
+<marquee><b><----💙GOOD💙----👌EXELLENT👌----🤯MIND BLOWING🤯----></b></marquee>
+<div class="grid">
+    <div class="grid-item7">
+        <img src="good food.jpg" width="200px" height="200px"><br>
+        <h2>GOOD</h2>
+
+    </div>
+    
+    <div class="grid-item8">
+        <img src="exellentfood.jpg" width="200px" height="200px"><br>
+        <h2>EXCELLENT</h2>
+
+    </div>
+    <div class="grid-item9">
+        <img src="mindblowing.jpg" width="200px" height="200px"><br>
+        <h2>MIND BLOWING</h2>
+
+    </div>
+    <section></section>
+    
+<section id="Contact">
+<h1>Contact Us</h1>
+    <div class="row">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3876.378747601758!2d100.49277437343122!3d13.69549599859796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e298bdd7d68283%3A0x7b953d665723d704!2sEight%20O&#39;Clock%20Home%20Caf%C3%A9!5e0!3m2!1sen!2sin!4v1684691047407!5m2!1sen!2sin">width="400" height="500" style="border:10></iframe>
+        <form action="">
+    <section</section>
+
+    <section id="Contact">
+<h2>Contact Me</h2>
+        <p>📱-7730049709</p>
+        <p>📧 -yaswanth7981@gmail.com</p>
+    </section>
+    <footer>
+        <section>
+        <div class="yash">
+           <div class="text1">
+                   
+               <a href="https://www.facebook.com/EightOClockCoffee/"target="_blank"  class="facebook"><img src="fb.jpg" width="40px" class="mg"></a>
+               </div>
+               <div class="text2">
+               <a href="https://www.instagram.com/p/CoclzULhFXy/" target="_blank"  class="instagram"><img src="insta.jpg" width="40px" class="mg"></a>
+               </div>
+           <div class="text3">
+               <a href="https://twitter.com/8oclockcoffee?lang=en"target="_blank" class="linkedlin"><img src="twitter.jpg" width="40px" class="mg"></a>
+            
+           </div>
+        </footer>
+        <section></section>
+
+<marquee><b><h1>&copy;2024 Eight O' Clock Coffee</h1></b></marquee>
+</body>
+</html>
